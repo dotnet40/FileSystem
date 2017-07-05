@@ -1,5 +1,5 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.1-net40",
   "buildOptions": {
     "warningsAsErrors": true,
     "keyFile": "../../tools/Key.snk",
@@ -12,7 +12,7 @@
   "packOptions": {
     "repository": {
       "type": "git",
-      "url": "git://github.com/aspnet/filesystem"
+      "url": "git://github.com/dotnet40/filesystem"
     },
     "tags": [
       "files",
@@ -23,15 +23,13 @@
   },
   "dependencies": {
     "Microsoft.Extensions.HashCodeCombiner.Sources": {
-      "version": "1.1.1",
+      "version": "1.1.1-net40",
       "type": "build"
-    },
-    "NETStandard.Library": "1.6.1"
+    }
   },
   "frameworks": {
-    "net45": {
+    "net40": {
       "dependencies": {}
-    },
-    "netstandard1.3": {}
+    }
   }
 }
